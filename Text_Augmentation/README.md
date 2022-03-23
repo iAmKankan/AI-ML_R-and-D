@@ -29,12 +29,27 @@ In computer vision applications data augmentations are done almost everywhere to
 In computer vision, these transformations are done **on the go** using _**data generators**_. As a batch of data is fed to your neural network it is randomly transformed (augmented). You don’t need to prepare anything before training.
 
 This isn’t the case with NLP, where data augmentation should be done carefully due to the **grammatical structure** of the text. The methods discussed here are used before training. A new augmented dataset is generated beforehand and later fed into data loaders to train the model.
-<img src="https://user-images.githubusercontent.com/12748752/159784407-67a978fe-48cc-4bc4-8536-c5094039c7b7.png" width=50% />
 
+<img src="https://user-images.githubusercontent.com/12748752/159792616-b1e05ed1-1ad3-40cd-b7ae-f331caf9bc9d.png" width=100% />
 
+## NLP Data augmentation methods
+NLP data augmentation methods provided in the following projects:
+  * Back translation. 
+  * EDA (Easy Data Augmentation).
+  * NLP Albumentation.
+  * NLP Aug.
+
+### Back translation
+#### Steps:
+  * You take the original text written in English.
+  * You convert it into another language (say French) using Google Translate
+  * You convert the translated text back into English using Google Translate
+  * Keep the augmented text if the original text and the back-translated text are different.
+<img src="https://user-images.githubusercontent.com/12748752/159786571-338bd845-f076-4022-9a21-a6cd168d4d09.png" width=60% />
 
 
 ## References
 ![Dark](https://user-images.githubusercontent.com/12748752/159751021-3209cbcd-844e-449e-80b0-232412ca0789.png)
 * [Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 2nd Edition](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/)
 * [neptune.ai](https://neptune.ai/blog/data-augmentation-nlp#:~:text=Apply%20data%20augmentation%20to%20your,just%20as%20powerful%20for%20NLP.)
+* [Amit Chaudhary's Blog](https://amitness.com/2020/02/back-translation-in-google-sheets/)
