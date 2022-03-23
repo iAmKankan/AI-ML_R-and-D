@@ -27,3 +27,10 @@ In computer vision applications data augmentations are done almost everywhere to
   * and many others.  
 
 In computer vision, these transformations are done **on the go** using _**data generators**_. As a batch of data is fed to your neural network it is randomly transformed (augmented). You don’t need to prepare anything before training.
+
+
+
+## References
+![Dark](https://user-images.githubusercontent.com/12748752/159751021-3209cbcd-844e-449e-80b0-232412ca0789.png)
+* [Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 2nd Edition](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/)
+* [neptune.ai](https://neptune.ai/blog/data-augmentation-nlp#:~:text=Apply%20data%20augmentation%20to%20your,just%20as%20powerful%20for%20NLP.)
