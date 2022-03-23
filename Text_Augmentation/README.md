@@ -30,7 +30,7 @@ In computer vision, these transformations are done **on the go** using _**data g
 
 This isn’t the case with NLP, where data augmentation should be done carefully due to the **grammatical structure** of the text. The methods discussed here are used before training. A new augmented dataset is generated beforehand and later fed into data loaders to train the model.
 
-<img src="https://user-images.githubusercontent.com/12748752/159792616-b1e05ed1-1ad3-40cd-b7ae-f331caf9bc9d.png" width=100% />
+<img src="https://user-images.githubusercontent.com/12748752/159792616-b1e05ed1-1ad3-40cd-b7ae-f331caf9bc9d.png" width=80% />
 
 ## NLP Data augmentation methods
 NLP data augmentation methods provided in the following projects:
