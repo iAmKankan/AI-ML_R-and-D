@@ -32,7 +32,7 @@ This isn’t the case with NLP, where data augmentation should be done carefully
 
 <img src="https://user-images.githubusercontent.com/12748752/159792616-b1e05ed1-1ad3-40cd-b7ae-f331caf9bc9d.png" width=80% />
 
-## NLP Data augmentation methods
+### NLP Data augmentation methods
 NLP data augmentation methods provided in the following projects:
   * Back translation. 
   * EDA (Easy Data Augmentation).
