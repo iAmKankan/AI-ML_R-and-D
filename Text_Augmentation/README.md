@@ -40,7 +40,7 @@ NLP data augmentation methods provided in the following projects:
   * NLP Aug.
 
 ### [Back translation](https://amitness.com/2020/02/back-translation-in-google-sheets/)
-#### Steps:
+* **Steps:**
   * You take the original text written in English.
   * You convert it into another language (say French) using Google Translate
   * You convert the translated text back into English using Google Translate
@@ -56,7 +56,17 @@ NLP data augmentation methods provided in the following projects:
    * Random deletion. 
 * On five text classification tasks, we show that EDA improves performance for both convolutional and recurrent neural networks. EDA demonstrates particularly strong results for smaller datasets; on average, across five datasets, training with EDA while using only 50% of the available training set achieved the same accuracy as normal training with all available data. We also performed extensive ablation stud
 ### [NLPAug](https://github.com/makcedward/nlpaug)
-
+* NLPAug helps you with augmenting NLP for your machine learning projects. Let’s see how we can use this library to perform data augmentation.
+* NLPAug offers three types of augmentation:
+   * Character level augmentation
+   * Word level augmentation 
+   * Sentence level augmentation
+In each of these levels, NLPAug provides all the methods discussed in the "Easy Data Augmentation" such as:
+  * random deletion, 
+  * random insertion, 
+  * shuffling, 
+  * synonym replacement, etc.
+From my experience, the most commonly used and effective technique is synonym replacement via word embeddings. 
 ### [Vision Albumentation to NLP Albumentation](https://github.com/albumentations-team/albumentations)
 
 ## References
@@ -67,4 +77,4 @@ NLP data augmentation methods provided in the following projects:
 * [Amit Chaudhary's Blog](https://amitness.com/2020/02/back-translation-in-google-sheets/)
 * [Easy Data Augmentation](https://arxiv.org/abs/1901.11196)
 * [NLPAug](https://github.com/makcedward/nlpaug)
-* 
+
