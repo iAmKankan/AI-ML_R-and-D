@@ -28,6 +28,10 @@ In computer vision applications data augmentations are done almost everywhere to
 
 In computer vision, these transformations are done **on the go** using _**data generators**_. As a batch of data is fed to your neural network it is randomly transformed (augmented). You don’t need to prepare anything before training.
 
+This isn’t the case with NLP, where data augmentation should be done carefully due to the **grammatical structure** of the text. The methods discussed here are used before training. A new augmented dataset is generated beforehand and later fed into data loaders to train the model.
+<img src="https://user-images.githubusercontent.com/12748752/159784407-67a978fe-48cc-4bc4-8536-c5094039c7b7.png" width=50% />
+
+
 
 
 ## References
