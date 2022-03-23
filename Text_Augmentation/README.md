@@ -39,7 +39,7 @@ NLP data augmentation methods provided in the following projects:
   * NLP Albumentation.
   * NLP Aug.
 
-### Back translation
+### [Back translation](https://amitness.com/2020/02/back-translation-in-google-sheets/)
 #### Steps:
   * You take the original text written in English.
   * You convert it into another language (say French) using Google Translate
@@ -47,9 +47,24 @@ NLP data augmentation methods provided in the following projects:
   * Keep the augmented text if the original text and the back-translated text are different.
 <img src="https://user-images.githubusercontent.com/12748752/159786571-338bd845-f076-4022-9a21-a6cd168d4d09.png" width=60% />
 
+### [Easy Data Augmentation](https://arxiv.org/abs/1901.11196)
+* EDA: easy data augmentation techniques for boosting performance on text classification tasks. 
+* EDA consists of four simple but powerful operations: 
+   * Synonym replacement, 
+   * Random insertion, 
+   * Random swap  
+   * Random deletion. 
+* On five text classification tasks, we show that EDA improves performance for both convolutional and recurrent neural networks. EDA demonstrates particularly strong results for smaller datasets; on average, across five datasets, training with EDA while using only 50% of the available training set achieved the same accuracy as normal training with all available data. We also performed extensive ablation stud
+### [NLPAug](https://github.com/makcedward/nlpaug)
+
+### [Vision Albumentation to NLP Albumentation](https://github.com/albumentations-team/albumentations)
 
 ## References
 ![Dark](https://user-images.githubusercontent.com/12748752/159751021-3209cbcd-844e-449e-80b0-232412ca0789.png)
 * [Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 2nd Edition](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/)
 * [neptune.ai](https://neptune.ai/blog/data-augmentation-nlp#:~:text=Apply%20data%20augmentation%20to%20your,just%20as%20powerful%20for%20NLP.)
+* [Albumentation](https://github.com/albumentations-team/albumentations)
 * [Amit Chaudhary's Blog](https://amitness.com/2020/02/back-translation-in-google-sheets/)
+* [Easy Data Augmentation](https://arxiv.org/abs/1901.11196)
+* [NLPAug](https://github.com/makcedward/nlpaug)
+* 
