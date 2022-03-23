@@ -1,6 +1,5 @@
 ## Index
 ![Dark](https://user-images.githubusercontent.com/12748752/159751021-3209cbcd-844e-449e-80b0-232412ca0789.png)
-![Light](https://user-images.githubusercontent.com/12748752/159751028-9fad0e97-8cb5-4046-b20d-62bda3fdbf49.png)
 
 ### What is Data Augmentation or Training Set Expansion?
 * Data augmentation artificially increases the size of the training set by generating many **realistic variants** of each training instance. 
