@@ -65,7 +65,8 @@ In each of these levels, NLPAug provides all the methods discussed in the "Easy 
   * random insertion, 
   * shuffling, 
   * synonym replacement, etc.
-From my experience, the most commonly used and effective technique is synonym replacement via word embeddings. 
+* The most commonly used and effective technique is synonym replacement via word embeddings. 
+
 ### [Vision Albumentation to NLP Albumentation](https://github.com/albumentations-team/albumentations)
 
 ## References
